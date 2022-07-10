@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <!-- === Services Page === -->
+    <record id="services_page" model="website.page">
+        <field name="name">Services page</field>
+        <field name="website_published">True</field>
+        <field name="url">/services</field>
+        <field name="type">qweb</field>
+        <field name="key">theme_neuprosa.services_page</field>
+        <field name="arch" type="xml">
+            <t t-name="theme_neuprosa.services_page_template">
+                <t t-call="website.layout">
+                    <div id="wrap" class="services">
+                        <section id="MainSection">            
+                            <div class="container-fluid">
+                                <div class="row contenido">
+                                    <div class="col-5">
+                                        <h1 class='titulo'>
+                                            OPTIMIZA Y 
+                                            <br/>  
+                                            PROGRAMA 
+                                            <br/>  
+                                            TUS IDEAS
+                                        </h1>
+                                        <div class="subtitulo">
+                                            Crea ventajas competitivas mediante la optimizacion de
+                                            <br/>
+                                            su organizacion a traves de las TI de una forma eficiente.
+                                        </div>
+                                        <br/>
+                                        <div class="row botones">
+                                            <div class="col">
+                                                <a href="" class="btn btn-primary">
+                                                    Registrate
+                                                </a>
+                                                <a href="" class="btn btn-outline-primary">
+                                                    Cotiza con nosotros
+                                                </a>
+                                            </div>                                
+                                        </div>
+                                    </div>
+                                </div>                   
+                            </div>
+                        </section>
+                        <!-- === Snippets' area === -->
+                        <div class="oe_structure" />
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <record id="services_page_link" model="website.menu">
+        <field name="name">Services</field>
+        <field name="page_id" ref="services_page"/>
+        <field name="parent_id" ref="website.main_menu" />
+        <field name="sequence" type="int">99</field>
+    </record>
+
+</odoo>

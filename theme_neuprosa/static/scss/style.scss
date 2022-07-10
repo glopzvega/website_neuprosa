@@ -1,0 +1,55 @@
+html, body{
+    font-family: "origo_proregular";
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+
+    font-family: "origo_proregular";
+}
+
+.navbar-brand, .navbar-text, .navbar .nav-link, .navbar a.js_change_lang span, .navbar a.o_add_language
+{
+    font-family: "origo_proregular";
+}
+
+footer {
+    border-top: 5px solid theme-color('primary');
+}
+
+.navbar-light{
+    background-color:#ffffff00 !important;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-light .navbar-nav .nav-item{    
+    border-right: 1px solid white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin: 0 28px;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: $secondary_color;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: $secondary_color;
+}
+
+.navbar-brand
+{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+ul.navbar-nav{
+    margin-right: 20px !important;
+}
+

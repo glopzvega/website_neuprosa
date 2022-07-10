@@ -1,0 +1,193 @@
+#MainSection{
+    background-image: url("../img/home_main.png");
+    min-height: 800px;
+    background-size: auto;
+}
+
+#MainSection .contenido{
+    padding: 100px;
+    padding-top: 300px;
+}
+
+#MainSection .contenido .titulo{
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+#MainSection .contenido .subtitulo{
+    color: white;
+}
+
+#SecondSection{
+    background-image: url("../img/home_second.png");
+    min-height: 300px;
+    background-size: auto;
+    color: white;
+    padding: 100px 0;
+}
+
+#SecondSection .subtitulo h2{
+    font-size: 2.5rem;
+}
+
+#SecondSection .descripcion{
+    font-size: 1.5rem;
+}
+
+#ThirdSection{
+    background-color: $third_color;
+    color: white;
+    padding: 10px;
+}
+
+#FourthSection > div{
+    min-height: 400px;
+    color: white;
+}
+
+#FourthSection > div .bloque{
+    width: 20%;
+    text-align: center;
+    padding-top: 100px !important;
+}
+
+#FourthSection > div .bloque h4{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#FourthSection > div .bloque hr{
+    margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: $secondary_color;
+    width: 40%;
+    height: 1px;
+}
+
+#FourthSection > div .bloque1{
+    background-image: url("../img/HOME_FOTO1.png");
+}
+
+#FourthSection > div .bloque2{
+    background-image: url("../img/HOME_FOTO2.png");
+}
+
+#FourthSection > div .bloque3{
+    background-image: url("../img/HOME_FOTO3.png");
+}
+
+#FourthSection > div .bloque4{
+    background-image: url("../img/HOME_FOTO4.png");
+}
+
+#FourthSection > div .bloque5{
+    background-image: url("../img/HOME_FOTO5.png");
+}
+
+#FifthSection{
+    background-image: url("../img/home_fifth.png");
+    color: white;
+    min-height: 350px;
+    padding: 50px;
+}
+
+#FifthSection .titulo{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+#FifthSection .derecha{
+    padding-top: 35px;
+    padding-left: 20px;
+}
+
+#SixthSection > div{
+    min-height: 500px;
+    color: white;
+}
+
+#SixthSection h4{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+#SixthSection > div .bloque{
+    width: 50%;
+    padding-top: 100px !important;
+}
+
+#SixthSection > div .bloque1{
+    background-color: $third_color;
+    font-size: 1.5rem;
+    padding-left: 100px !important;
+}
+
+#SixthSection > div .bloque2{
+    background-image: url("../img/HOME_SERIVICIOS.png");
+}
+
+#SeventhSection{
+    background-image: url("../img/home_white.png");
+    color: $third_color;
+    font-size: 1.5rem;
+    min-height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#SeventhSection .titulo h3{
+    color: $secondary_color;
+    font-size: 3rem !important;
+}
+
+#SeventhSection .d-flex{
+    min-height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#SeventhSection .d-flex .bloque{
+    width: 20%;
+}
+
+#SeventhSection .bloque .imagen{
+    background-color: $dark_blue;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#SeventhSection .bloque1 .imagen{
+    background-image: url("../img/LOGO_HOME.png");
+}
+
+#SeventhSection .bloque2 .imagen{
+    background-image: url("../img/LOGO_HOME.png");
+}
+
+#SeventhSection .bloque3 .imagen{
+    background-image: url("../img/LOGO_HOME.png");
+}
+
+#SeventhSection .bloque4 .imagen{
+    background-image: url("../img/LOGO_HOME.png");
+}
+
+#SeventhSection .bloque5 .imagen{
+    background-image: url("../img/LOGO_HOME.png");
+}
+
+#EighthSection{
+    background-image: url("../img/home_blue.png");
+    color: $white;
+    font-size: 1.5rem;
+    min-height: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#EighthSection .titulo h3{
+    color: $light_blue;
+    font-size: 3rem !important;
+}

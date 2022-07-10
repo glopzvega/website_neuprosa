@@ -1,0 +1,267 @@
+<odoo>
+
+    <!-- Customize home page  -->
+    <template id="custom_homepage" inherit_id="website.homepage" 
+        name="Custom Home Page">
+        <xpath expr="//div[@id='wrap']" position="inside">
+        
+            <section id="MainSection">            
+                <div class="container-fluid">
+                    <div class="row contenido">
+                        <div class="col-5">
+                            <h1 class='titulo'>
+                                OPTIMIZA Y 
+                                <br/>  
+                                PROGRAMA 
+                                <br/>  
+                                TUS IDEAS
+                            </h1>
+                            <div class="subtitulo">
+                                Crea ventajas competitivas mediante la optimizacion de
+                                <br/>
+                                su organizacion a traves de las TI de una forma eficiente.
+                            </div>
+                            <br/>
+                            <div class="row botones">
+                                <div class="col">
+                                    <a href="" class="btn btn-primary">
+                                        Registrate
+                                    </a>
+                                    <a href="" class="btn btn-outline-primary">
+                                        Cotiza con nosotros
+                                    </a>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+            </section>
+            
+            <div class="oe_structure"/>
+
+            <section id="SecondSection">
+                <div class="container">
+                    <div class="row subtitulo">
+                        <div class="col text-center">
+                            <h2>NEURONAS PROGRAMABLES</h2>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="row descripcion">
+                        <div class="col text-center">
+                            Crear ventajas competitivas mediante la optimizacion de su
+                            <br/>
+                            organizacion a traves de las TI de una forma eficiente
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="row">
+                        <div class="col text-center">
+                            <a href="#" class='flecha-abajo'> V </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="oe_structure"/>
+
+            <section id="ThirdSection">
+                <div class="container">
+                    <div class="row titulo">
+                        <div class="col text-center">
+                            <h3>CONTAMOS CON SERVICIOS DE CALIDAD PARA TU EMPRESA O NEGOCIO</h3>
+                        </div>
+                    </div>                        
+                </div>
+            </section>
+
+            <div class="oe_structure"/>
+
+            <section id="FourthSection">
+                <div class="d-flex flex-row align-items-stretch">
+                    <div class="p-2 bloque bloque1">
+                        <h4>CONSULTORIA</h4>
+                        <hr/>
+                        <p>
+                            Lorem Ipsum is simply 
+                            <br/> 
+                            dummy text of the
+                            <br/> 
+                            printing.
+                        </p>
+                    </div>
+                    <div class="p-2 bloque bloque2">
+                        <h4>IMPLEMENTACION</h4>
+                        <hr/>
+                        <p>
+                            Lorem Ipsum is simply 
+                            <br/> 
+                            dummy text of the
+                            <br/> 
+                            printing.
+                        </p>
+                    </div>
+                    <div class="p-2 bloque bloque3">
+                        <h4>DESARROLLO DE SOFTTWARE</h4>
+                        <hr/>
+                        <p>
+                            Lorem Ipsum is simply 
+                            <br/> 
+                            dummy text of the
+                            <br/> 
+                            printing.
+                        </p>
+                    </div>
+                    <div class="p-2 bloque bloque4">
+                        <h4>OTRO</h4>
+                        <hr/>
+                        <p>
+                            Lorem Ipsum is simply 
+                            <br/> 
+                            dummy text of the
+                            <br/> 
+                            printing.
+                        </p>
+                    </div>
+                    <div class="p-2 bloque bloque5">
+                        <h4>SOPORTE</h4>
+                        <hr/>
+                        <p>
+                            Lorem Ipsum is simply 
+                            <br/> 
+                            dummy text of the
+                            <br/> 
+                            printing.
+                        </p>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <div class="oe_structure"/>
+
+            <section id="FifthSection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="/theme_neuprosa/static/img/logo_unidos.png" alt="" style="width:100%"/>
+                        </div>
+                        <div class="col derecha">
+                            <div class="row titulo">
+                                <div class="col">
+                                    <div>
+                                        Ayudamos a organizaciones lideres en los sectores publico y 
+                                        <br/>
+                                        privado a unir los puntos entre tecnologia, datos y procesos,
+                                        <br/>
+                                        actuando como un brazo extendido de su equipo interno.
+                                    </div>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="" class="btn btn-secondary"> Conoce a Neuprosa </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="oe_structure"/>
+
+            <section id="SixthSection">
+                <div class="d-flex flex-row align-items-stretch">
+                    <div class="p-2 bloque bloque1">
+                        <h4>Agunos de nuestros servicios</h4>
+                        <br/>
+                        <ul>
+                            <li>Soluciones en Informatica Aplicada</li>
+                            <li>Implementacion de ERP</li>
+                            <li>Integrador de Soluciones</li>
+                            <li>Soluciones en Informatica Aplicada</li>
+                            <li>Implementacion de ERP</li>
+                        </ul>
+                        
+                    </div>
+
+                    <div class="p-2 bloque bloque2">
+                    </div>
+                </div>
+            </section>
+
+            <div class="oe_structure"/>
+
+            <section id="SeventhSection">
+                <div class="container">
+                    <div class="row titulo">
+                        <div class="col text-center">
+                            <h3>NUESTROS CLIENTES</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col descripcion text-center">
+                            <div>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row align-items-stretch">
+                        <div class="p-2 bloque bloque1">
+                            <div class="imagen"></div>
+                        </div>
+                        <div class="p-2 bloque bloque2">
+                            <div class="imagen"></div>
+                        </div>
+                        <div class="p-2 bloque bloque3">
+                            <div class="imagen"></div>
+                        </div>
+                        <div class="p-2 bloque bloque4">
+                            <div class="imagen"></div>
+                        </div>
+                        <div class="p-2 bloque bloque5">
+                            <div class="imagen"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col text-center">
+                            <a href="#" class="btn btn-secondary"> Mira nuestro trabajo mas reciente >> </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="oe_structure"/>
+
+            <section id="EighthSection">
+                <div class="container">
+                    <div class="row titulo">
+                        <div class="col text-center">
+                            <h3>QUE ES NEUPROSAGOB?</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 offset-2 descripcion text-center">
+                            <div>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                            </div>
+                        </div>
+                    </div>                        
+                    <br/>
+                    <div class="row">
+                        <div class="col text-center">
+                            <a href="#" class="btn btn-lg btn-primary"> Mas Informacion </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                
+            
+            <div class="oe_structure"/>
+        </xpath>
+    </template>
+
+</odoo>

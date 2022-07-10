@@ -1,0 +1,24 @@
+.services{
+
+    #MainSection{
+        background-image: url("../img/services/main.png");
+        min-height: 1000px;
+        background-size: auto;
+    }
+    
+    #MainSection .contenido{
+        padding: 100px;
+        padding-top: 300px;
+    }
+    
+    #MainSection .contenido .titulo{
+        color: white;
+        font-weight: bold;
+        font-size: 4rem;
+    }
+    
+    #MainSection .contenido .subtitulo{
+        color: white;
+    }
+    
+}
