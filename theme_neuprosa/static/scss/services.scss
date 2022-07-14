@@ -2,23 +2,109 @@
 
     #MainSection{
         background-image: url("../img/services/main.png");
-        min-height: 1000px;
-        background-size: auto;
+        min-height: 800px;
+        background-size: 100% 100%;
     }
     
     #MainSection .contenido{
-        padding: 100px;
-        padding-top: 300px;
+        position: absolute;
+        width: 100%;
+        top: 420px;
+        right: 100px;
     }
     
     #MainSection .contenido .titulo{
-        color: white;
+        color: $secondary_color;
         font-weight: bold;
         font-size: 4rem;
     }
     
     #MainSection .contenido .subtitulo{
+        color: $third_color;
+        font-size: 2rem;
+    }
+
+    #SecondSection{
+        background-image: url("../img/services/second.png");
+        background-size: auto;
+        min-height: 600px;
+    }
+
+    #ThirdSection > div{
+        min-height: 500px;
+        color: $third_color;
+    }
+    
+    #ThirdSection h4{
+        color: $secondary_color;
+        font-weight: bold;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    
+    #ThirdSection > div .bloque{
+        width: 50%;
+        padding-top: 100px !important;
+    }
+
+    #ThirdSection > div .bloque1{
+        background-color: $white;
+        font-size: 1.5rem;
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    
+    #ThirdSection > div .bloque2{
+        background-image: url("../img/services/servicios.png");
+    }
+
+    #FourthSection{
+        background-image: url("../img/services/slide.png");
+        background-size: 100% 100%;
         color: white;
+        min-height: 800px;
+        padding: 50px;
+    }
+    
+    #FourthSection .titulo{
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+
+    #FourthSection .titulo h2{
+        color: $secondary_color;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    #FourthSection .derecha{
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+
+    #FifthSection{
+        background-image: url("../img/services/asesores.png");
+        background-size: 100% 100%;
+        color: $third_color;
+        min-height: 600px;
+    }
+
+    #FifthSection .contenido{
+        position: absolute;
+        width: 100%;
+        top: 100px;
+        right: 100px;
+    }
+    
+    #FifthSection .contenido .titulo{
+        color: $secondary_color;
+        font-weight: bold;
+        font-size: 4rem;
+    }
+    
+    #FifthSection .contenido .subtitulo{
+        color: $third_color;
+        font-size: 2rem;
     }
     
 }
