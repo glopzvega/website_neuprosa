@@ -80,6 +80,8 @@
                 <section id="FourthSection">
                     <div class="d-flex flex-row align-items-stretch">
                         <div class="p-2 bloque bloque1">
+                            <!-- <div class="image"></div> -->
+                            <!-- <img src="/theme_neuprosa/static/img/HOME_FOTO1.png" alt=""/> -->
                             <h4>CONSULTORIA</h4>
                             <hr/>
                             <p>
@@ -91,6 +93,7 @@
                             </p>
                         </div>
                         <div class="p-2 bloque bloque2">
+                            <!-- <img src="/theme_neuprosa/static/img/HOME_FOTO2.png" alt=""/> -->
                             <h4>IMPLEMENTACION</h4>
                             <hr/>
                             <p>
@@ -102,6 +105,7 @@
                             </p>
                         </div>
                         <div class="p-2 bloque bloque3">
+                            <!-- <img src="/theme_neuprosa/static/img/HOME_FOTO3.png" alt=""/> -->
                             <h4>DESARROLLO DE SOFTTWARE</h4>
                             <hr/>
                             <p>
@@ -113,6 +117,7 @@
                             </p>
                         </div>
                         <div class="p-2 bloque bloque4">
+                            <!-- <img src="/theme_neuprosa/static/img/HOME_FOTO4.png" alt=""/> -->
                             <h4>OTRO</h4>
                             <hr/>
                             <p>
@@ -124,6 +129,7 @@
                             </p>
                         </div>
                         <div class="p-2 bloque bloque5">
+                            <!-- <img src="/theme_neuprosa/static/img/HOME_FOTO5.png" alt=""/> -->
                             <h4>SOPORTE</h4>
                             <hr/>
                             <p>
@@ -210,21 +216,23 @@
 
                         <div class="d-flex flex-row align-items-stretch">
                             <div class="p-2 bloque bloque1">
-                                <div class="imagen"></div>
+                                <img alt="client" class="rounded-circle" src="/theme_neuprosa/static/img/LOGO_HOME.png"/>
                             </div>
                             <div class="p-2 bloque bloque2">
-                                <div class="imagen"></div>
+                                <img alt="client" class="rounded-circle" src="/theme_neuprosa/static/img/LOGO_HOME.png"/>
                             </div>
                             <div class="p-2 bloque bloque3">
-                                <div class="imagen"></div>
+                                <img alt="client" class="rounded-circle" src="/theme_neuprosa/static/img/LOGO_HOME.png"/>
                             </div>
                             <div class="p-2 bloque bloque4">
-                                <div class="imagen"></div>
+                                <img alt="client" class="rounded-circle" src="/theme_neuprosa/static/img/LOGO_HOME.png"/>
                             </div>
                             <div class="p-2 bloque bloque5">
-                                <div class="imagen"></div>
+                                <img alt="client" class="rounded-circle" src="/theme_neuprosa/static/img/LOGO_HOME.png"/>
                             </div>
                         </div>
+
+                        <div class="oe_structure"/>
 
                         <div class="row">
                             <div class="col text-center">

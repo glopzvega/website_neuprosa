@@ -41,3 +41,33 @@ $dropdown-min-width: 200px;
     border-color: $secondary_color;
     color: white;
 }
+
+.s_share:not(.no_icon_color) a.s_share_facebook
+{
+    color: white !important;
+}
+
+.s_share:not(.no_icon_color) a.s_share_twitter
+{
+    color: white !important;
+}
+
+.s_share:not(.no_icon_color) a.s_share_linkedin
+{
+    color: white !important;
+}
+
+.s_share:not(.no_icon_color) a.s_share_instagram
+{
+    color: white !important;
+}
+
+.s_share:not(.no_icon_color) a.s_share_mail
+{
+    color: white !important;
+}
+
+.fa.rounded-circle
+{
+    background-color: #ffffff00 !important;
+}

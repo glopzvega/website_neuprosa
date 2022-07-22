@@ -15,7 +15,7 @@
                         <section id="MainSection">            
                             <div class="container-fluid">
                                 <div class="row contenido">
-                                    <div class="col-offset-6 col text-right">
+                                    <div class="offset-6 col text-right">
                                         <h1 class='titulo'>
                                             TODO SOBRE
                                             <br/>  

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="neuprosa_footer" inherit_id="website.layout" name="Neuprosa footer">
+        <xpath expr="//footer/div[@id='footer']/section/div" position="replace">
+            <div class="container">
+                <div class="row">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4>Comunidad</h4>
+                                        <ul>
+                                            <li><a href="#">Enlace</a></li>
+                                            <li><a href="#">Enlace</a></li>
+                                            <li><a href="#">Enlace</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <br/>
+                                <div class="row">
+                                    <div class="col">
+                                        <h4>Codigo abierto</h4>
+                                        <ul>
+                                            <li><a href="#">Enlace</a></li>
+                                            <li><a href="#">Enlace</a></li>
+                                            <li><a href="#">Enlace</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <h4>Servicios</h4>
+                                <ul>
+                                    <li><a href="#">Enlace</a></li>
+                                    <li><a href="#">Enlace</a></li>
+                                    <li><a href="#">Enlace</a></li>
+                                    <li></li>
+                                    <li><a href="#">Enlace</a></li>
+                                    <li><a href="#">Enlace</a></li>
+                                    <li><a href="#">Enlace</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <h4>Sobre nosotros</h4>
+                                <ul>
+                                    <li><a href="#">Enlace</a></li>
+                                    <li><a href="#">Enlace</a></li>
+                                    <li><a href="#">Enlace</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="row">
+                            <div class="col">
+                                <div>
+                                    <span class="idioma">
+                                        <b> Espanol </b>
+                                    </span>
+                                    <hr/>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                        when an unknown printer took a galley of type and scrambled it to make a type 
+                                        specimen book. It has survived not only five centuries, but also the leap 
+                                        into electronic typesetting, remaining essentially unchanged. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="s_share text-left" data-snippet="s_share" data-name="Social Media">
+                                    <h5 class="s_share_title d-none">Follow us</h5>
+                                    <a href="/website/social/facebook" class="s_share_facebook" target="_blank">
+                                        <i class="fa fa-facebook rounded-circle shadow-sm"></i>
+                                    </a>
+                                    <a href="/website/social/twitter" class="s_share_twitter" target="_blank">
+                                        <i class="fa fa-twitter rounded-circle shadow-sm"></i>
+                                    </a>
+                                    <a href="/website/social/linkedin" class="s_share_linkedin" target="_blank">
+                                        <i class="fa fa-linkedin rounded-circle shadow-sm"></i>
+                                    </a>
+                                    <a href="/website/social/instagram" class="s_share_instagram" target="_blank">
+                                        <i class="fa fa-instagram rounded-circle shadow-sm"></i>
+                                    </a>
+                                    <a href="/" class="s_share_mail">
+                                        <i class="fa fa-envelope rounded-circle shadow-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

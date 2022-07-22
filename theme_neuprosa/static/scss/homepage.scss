@@ -49,42 +49,102 @@
     }
     
     #FourthSection > div .bloque{
-        width: 20%;
-        text-align: center;
+        background-color: black;
         padding-top: 100px !important;
+        width: 20%;
     }
     
     #FourthSection > div .bloque h4{
         font-weight: bold;
         margin-bottom: 0;
+        text-align: center;
+        position: relative;
     }
     
+    // #FourthSection > div .bloque img{
+    //     position: absolute;
+    //     top: 0;
+    //     opacity: 0.5;
+    // }
+
     #FourthSection > div .bloque hr{
         margin-bottom: 0.5rem;
         margin-bottom: 0.5rem;
         background-color: $secondary_color;
         width: 40%;
         height: 1px;
+        position: relative;
+    }
+
+    #FourthSection > div .bloque p{
+        text-align: center;
+        position: relative;
     }
     
-    #FourthSection > div .bloque1{
+    #FourthSection > div .bloque1::before
+    {
+        content: "";
         background-image: url("../img/HOME_FOTO1.png");
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 80%;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.5;
     }
     
-    #FourthSection > div .bloque2{
+    #FourthSection > div .bloque2::before{
+        content: "";
         background-image: url("../img/HOME_FOTO2.png");
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 60%;
+        bottom: 0px;
+        left: 20%;
+        opacity: 0.5;
     }
     
-    #FourthSection > div .bloque3{
+    #FourthSection > div .bloque3::before{
+        content: "";
         background-image: url("../img/HOME_FOTO3.png");
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 40%;
+        bottom: 0px;
+        left: 40%;
+        opacity: 0.5;
     }
     
-    #FourthSection > div .bloque4{
+    #FourthSection > div .bloque4::before{
         background-image: url("../img/HOME_FOTO4.png");
+        content: "";
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 20%;
+        bottom: 0px;
+        left: 60%;
+        opacity: 0.5;
     }
     
-    #FourthSection > div .bloque5{
+    #FourthSection > div .bloque5::before{
         background-image: url("../img/HOME_FOTO5.png");
+        content: "";
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0;
+        bottom: 0px;
+        left: 80%;
+        opacity: 0.5;
+    }
+
+    #FourthSection > div .bloque:hover::before{
+        opacity: 1;
+        z-index: 1;
     }
     
     #FifthSection{
@@ -153,32 +213,32 @@
         width: 20%;
     }
     
-    #SeventhSection .bloque .imagen{
+    #SeventhSection .bloque img{
         background-color: $dark_blue;
         border-radius: 50%;
         width: 200px;
         height: 200px;
     }
     
-    #SeventhSection .bloque1 .imagen{
-        background-image: url("../img/LOGO_HOME.png");
-    }
+    // #SeventhSection .bloque1 .imagen{
+    //     background-image: url("../img/LOGO_HOME.png");
+    // }
     
-    #SeventhSection .bloque2 .imagen{
-        background-image: url("../img/LOGO_HOME.png");
-    }
+    // #SeventhSection .bloque2 .imagen{
+    //     background-image: url("../img/LOGO_HOME.png");
+    // }
     
-    #SeventhSection .bloque3 .imagen{
-        background-image: url("../img/LOGO_HOME.png");
-    }
+    // #SeventhSection .bloque3 .imagen{
+    //     background-image: url("../img/LOGO_HOME.png");
+    // }
     
-    #SeventhSection .bloque4 .imagen{
-        background-image: url("../img/LOGO_HOME.png");
-    }
+    // #SeventhSection .bloque4 .imagen{
+    //     background-image: url("../img/LOGO_HOME.png");
+    // }
     
-    #SeventhSection .bloque5 .imagen{
-        background-image: url("../img/LOGO_HOME.png");
-    }
+    // #SeventhSection .bloque5 .imagen{
+    //     background-image: url("../img/LOGO_HOME.png");
+    // }
     
     #EighthSection{
         background-image: url("../img/home_blue.png");

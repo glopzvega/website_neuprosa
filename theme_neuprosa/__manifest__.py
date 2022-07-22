@@ -8,9 +8,11 @@
     'depends': ['website'],
     'data': [
         # 'views/layout.xml',
+        'views/snippets.xml',
         'views/home.xml',
         'views/services.xml',
         'views/header.xml',
+        'views/footer.xml',
     ],
     'assets' : {    
         'web.assets_frontend': [
